@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-study",
+  "version": "1.0.0",
+  "description": "This repository contains my tailwind study",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadienHafizhYusufi/Tailwind-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmadienHafizhYusufi/Tailwind-Study/issues"
+  },
+  "homepage": "https://github.com/AhmadienHafizhYusufi/Tailwind-Study#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
