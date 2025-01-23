@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar TailwindCSS</title>
+    <link href="src/output.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    spacing: {
+                        13: '3.25rem',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            border : 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-3xl text-cyan-400">
+        Hello Momo
+    </h1>
+
+    <section class="mb-10">
+        <h2>Spacing</h2>
+        <div class="m-13">Margin</div>
+        <div class="p-8">Padding</div>
+    </section>
+
+    <section class="mb-10">
+        <h2>Sizing</h2>
+        <div class="w-32 h-32">Kotak 1</div>
+        <div class="max-w-xs min-h-screen">Kotak 2</div>
+    </section>
+
+    <section class="mb-96">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quia?</h2>
+        <div>By Momo</div>
+        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum vero unde sunt doloribus facere, voluptatem veniam quia quam minus dicta culpa expedita nulla enim tempora quasi facilis quae illo? Aut odit neque, aperiam maiores officia dolor, doloremque esse autem nesciunt facere natus harum temporibus aspernatur optio, nemo labore voluptatibus reprehenderit.</p>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur voluptate sapiente expedita laudantium ut aliquid? Expedita, rerum veniam corrupti nobis a delectus est, velit temporibus officiis, possimus amet! Omnis, ad!</p>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum distinctio obcaecati nostrum labore totam natus. Impedit eveniet cumque atque. Accusamus officia odit illum quidem facilis ducimus excepturi, et quam nostrum?</p>
+
+    </section>
+</body>
+</html>
